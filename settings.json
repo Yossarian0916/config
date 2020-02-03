@@ -1,0 +1,15 @@
+{
+    "python.envFile": "${workspaceFolder}/.vscode/dev.env",
+    // python interpreter
+    "python.pythonPath": "/usr/bin/python3",
+    // python format
+    "python.formatting.provider": "autopep8",
+    // python max-line-length
+    "python.formatting.autopep8Args": [
+        "--max-line-length", "80"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": false
+}
